@@ -241,7 +241,7 @@ void Graphics_System::render()
 
 		draw_wave(	m_parent_engine->m_audio.m_synth_channels[i]->m_sample.m_allocated_memory, 
 					Point2(30, 1 + 12 * i), 0, 
-					0, 7, 256, Color(255, 150, 0));
+					0, 7, 240, Color(255, 150, 0));
 	}
 
 	SDL_UnlockAudio();
